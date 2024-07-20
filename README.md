@@ -23,7 +23,4 @@ https://eloquentjavascript.net/
 Playground
 https://runjs.app/play
 
-Node.js
-https://nodejs.org/en
-
 <a href="https://nodejs.org/en">Node.js</a>
