@@ -4,7 +4,7 @@ Tipos de datos, operadores y strings
 https://www.twitch.tv/videos/2200149072?t=00h08m02s
 */
 
-// 1. Escribe un comentario en una línea
+// 1. Escribe un comentario en una línea 
 
     // Esto es un comentario de prueba sisi
 

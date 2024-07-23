@@ -4,7 +4,7 @@ Tipos de datos, operadores y strings
 https://www.twitch.tv/videos/2200149072?t=00h08m02s
 */
 
-// Operadores Aritméticos
+// Operadores Aritméticos \\
 
 let a = 5
 let b = 10
@@ -23,7 +23,7 @@ console.log(a)
 b-- // Decremento
 console.log(b)
 
-// Operadores de asignacion
+// Operadores de asignacion \\
 
 let myVariable = 2
 console.log(myVariable)
@@ -36,7 +36,7 @@ myVariable /= 2 // División con asignación
 myVariable %= 2 // Módulo con asignación
 myVariable **= 2 // Exponente con asignación
 
-// Operadores de comparación
+// Operadores de comparación \\
 
 console.log(a > b) // Mayor que
 console.log(a < b) // Menor que
@@ -82,7 +82,7 @@ Falsy values (valores falsos)
 - Cadenas de texto vacías 
 */
 
-// Operadores lógicos
+// Operadores lógicos \\
 
 // and (&&)
 console.log(5 > 10 && 15 > 20)
@@ -104,7 +104,7 @@ console.log(!false)
 console.log(!(5 > 10 && 15 > 20))
 console.log(!(5 > 10 || 15 > 20))
 
-// Operadores ternarios
+// Operadores ternarios \\
 
 const isRaining = false
 isRaining ? console.log("Está lloviendo") : console.log("No está lloviendo")
