@@ -1,26 +1,19 @@
 # Repository
 
-Enlaces de interes
+<h1>Enlaces de Interes</h1>
 
-Historia
-https://es.wikipedia.org/wiki/JavaScript
+<a href="https://es.wikipedia.org/wiki/JavaScript">Historia</a>
 
-Especificación ECMAScript
-https://tc39.es/ecma262/
+<a href="https://tc39.es/ecma262/">Especificación ECMAScript</a>
 
-Documentación Mozilla
-https://developer.mozilla.org/es/docs/Web/JavaScript
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Documentación Mozilla</a>
 
-Documentación W3Schools
-https://www.w3schools.com/js/
+<a href="https://www.w3schools.com/js/">Documentación W3Schools</a>
 
-Documentación JS Info
-https://es.javascript.info/
+<a href="https://es.javascript.info/">Documentación JS Info</a>
 
-Libro Eloquent JavaScript
-https://eloquentjavascript.net/
+<a href="https://eloquentjavascript.net/">Libro Eloquent JavaScript</a>
 
-Playground
-https://runjs.app/play
+<a href="https://runjs.app/play">Playground</a>
 
 <a href="https://nodejs.org/en">Node.js</a>

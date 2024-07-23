@@ -70,15 +70,68 @@ https://www.twitch.tv/videos/2200149072?t=00h08m02s
     console.log("Operaciones de comparacion Falsas: ")
     console.log("---------------------------------------------------------------")
     
-
+    console.log(5 == false)
+    console.log(2 == false)
+    console.log(0 == "Hola")
+    
+    console.log("---------------------------------------------------------------")
 // 5. Utiliza el operador lógico and
 
+    console.log("Operaciones Logicas AND &&: ")
+    console.log("---------------------------------------------------------------")
+
+    console.log(10 > 5 && 80 > 30)
+    console.log(70 < 20 && 7995 > 2)
+    console.log(10 > 20 && 80 < 50 && 4000 > 22)
+    
+    console.log("---------------------------------------------------------------")
 // 6. Utiliza el operador lógico or
 
+    console.log("Operacion Logica OR ||:")
+    console.log("---------------------------------------------------------------")
+
+    console.log(10 > 1 || 5 > 1)
+    console.log(1000 > 999 || 12 < 4)
+    console.log(444 > 222 || 14 < 11 || 7899 > 7000)
+    console.log(500 > 2000 || 133 < 4)
+    
+    console.log("---------------------------------------------------------------")
 // 7. Combina ambos operadores lógicos
 
+    console.log("Combinacion Operadores logicos: ")
+    console.log("---------------------------------------------------------------")
+
+    console.log(10 > 15 && 20 < 5 || 800 > 100)
+    console.log(100 > 80 && 200 > 100 || 60 > 50)
+
+    console.log("---------------------------------------------------------------")
 // 8. Añade alguna negación
 
+    console.log("Operadores de negacion: ")
+    console.log("---------------------------------------------------------------")
+
+    console.log(!true) //Si no es verdadero
+    console.log(!false)
+    console.log(!(10 + 10 && 100 > 60))
+
+    console.log("---------------------------------------------------------------")
 // 9. Utiliza el operador ternario
 
+    console.log("Operador Ternario: ")
+    console.log("---------------------------------------------------------------")
+
+    const listenTaylorSwift = true
+    console.log("ListenToTaylorSwift: ")
+    listenTaylorSwift ? console.log(true) : console.log(false)
+
+    console.log("---------------------------------------------------------------")
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+
+    console.log("Combina operadores aricmeticos, de comparacion y logicos")
+    console.log("---------------------------------------------------------------")
+
+    let a = 10
+    let b = 50
+    console.log(10 + 10 && 20 < 15 || 500 > 455)
+    console.log(a > b && b == b || a != b)
+
