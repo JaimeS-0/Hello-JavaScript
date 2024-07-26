@@ -132,6 +132,6 @@ https://www.twitch.tv/videos/2200149072?t=00h08m02s
 
     let a = 10
     let b = 50
-    console.log(10 + 10 && 20 < 15 || 500 > 455)
+    console.log(10 <= 10 && 20 < 15 || 500 > 455)
     console.log(a > b && b == b || a != b)
 
