@@ -35,4 +35,6 @@ lineas`
 
 console.log(message)
 
-console.log(`Hola, ${myName}!`)
+let email = "Jaime@gmail.com"
+
+console.log(`Hola, ${myName}! Tu email es ${email}.`)
