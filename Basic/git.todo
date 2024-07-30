@@ -1,0 +1,48 @@
+Git Github
+
+
+
+Git es un control de versiones que registra cada cambio que se hace y te dice cuando lo hizo que lineas cambio que controla el historico
+
+Ver version que tenemos instalados git --version
+
+Añardir nombre a git y correo
+
+Git config --global user.name “Jaime”
+
+Git config --global user.email “email @gmeil.com”
+
+Crear repositorio git init
+
+Code . te abre vscode
+
+Git ststus nos dice que cambios hay 
+
+Git add “nombre archivo”	. es todo
+
+Git commit -m “da un mensaje al commit del cambio”
+
+Git log ver el historial de los commits
+
+Git checkout y el id del commit 
+
+Git branch mirar las ramas
+
+git remote add origin https://github.com/jaimeDev0/Leenguaje-html.git
+
+Git push origin main empujar nuestra rama main a nuestro repositorio de github
+
+
+
+$ echo "# repository" >> README.md
+$ git init 
+$ git add README.md 
+$ git commit -m "first commit" 
+$ git branch -M main 
+$ git remote add origin https://github.com/profile/repository.git 
+$ git push -u origin main
+
+
+Cambiar ruta que empieza la terminal 
+nano ~/.bash_profile     ponmemos la ruta
+source ~/.bash_profile    aplicamos cambios
