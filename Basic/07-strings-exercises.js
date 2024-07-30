@@ -77,8 +77,9 @@ console.log("-------------------------------------------")
 console.log("7. Reemplaza todos los espacios en blanco de un string por guiones")
 console.log("-------------------------------------------")
 
-        let message = "El arbol es azul y la casa esta en el cielo"
-        console.log(message.includes(" "), ("-"))
+    let message = "El arbol es azul y la casa esta en el cielo"
+    const resultado = message.replace(/ /g, '-')
+    console.log(resultado)
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 
