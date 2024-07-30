@@ -98,8 +98,8 @@ console.log("-------------------------------------------")
 console.log("9. Comprueba si dos strings son iguales")
 console.log("-------------------------------------------")
 
-    let Iquals = 'Cerdito'
-    let Iquals1 = 'Cerdito'
+    let equals = 'Cerdito'
+    let equals1 = 'Cerdito'
     if(Iquals == Iquals1) {
         console.log("Los Strings son iguales")
     }else console.log("No son iguales")
