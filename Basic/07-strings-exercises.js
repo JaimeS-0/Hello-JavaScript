@@ -87,14 +87,32 @@ console.log("-------------------------------------------")
 console.log("8. Comprueba si una cadena de texto contiene una palabra concreta")
 console.log("-------------------------------------------")
 
+    const texto = 'Hola me quiero ir a vivir a Marte'
+
+    const palabra = texto.includes('Marte')
+    console.log('La palabra seleccionada esta en el texto: ' + palabra)
+
 // 9. Comprueba si dos strings son iguales
 
 console.log("-------------------------------------------")
 console.log("9. Comprueba si dos strings son iguales")
 console.log("-------------------------------------------")
 
+    let Iquals = 'Cerdito'
+    let Iquals1 = 'Cerdito'
+    if(Iquals == Iquals1) {
+        console.log("Los Strings son iguales")
+    }else console.log("No son iguales")
+
 // 10. Comprueba si dos strings tienen la misma longitud
 
 console.log("-------------------------------------------")
 console.log("10. Comprueba si dos strings tienen la misma longitud")
 console.log("-------------------------------------------")
+
+    let letter = 'Cascada'
+    let letter1 = 'Arco'
+    console.log('La primera palabra tiene: ' + letter.length + ' | ' + ' La ultima palabra tiene: ' + letter1.length)
+    if(letter.length == letter1.length) {
+        console.log('Tiene la misma longitud')
+    } else console.log('No tiene la misma longitud')
