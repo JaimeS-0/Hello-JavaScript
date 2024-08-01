@@ -13,18 +13,21 @@ https://www.twitch.tv/videos/2206228701?t=00h16m02s
 
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 
-    let user = 'Paco'
-    let password = 123456
-    
-    if (user == 'Paco') {
-        console.log("El usuario coincide con Nombre: " + user)    
-    } else if(user != 'Paco') {
-        console.log("El usuario no es igual al Nombre: " + user)
-    } else if (password == 123456) {
-        console.log("La contraseña coincide con el valor establecido.")
-    } else (password != 123456) 
-        console.log("La contraseña no es igual")
-    
+let user = 'Paco';
+let password = 123456;
+
+if (user === 'Paco') {
+    console.log("El usuario coincide con el nombre: " + user);
+} else {
+    console.log("El usuario no coincide con el nombre: " + user);
+}
+
+if (password === 123456) {
+    console.log("La contraseña coincide con el valor establecido.");
+} else {
+    console.log("La contraseña no coincide.");
+}
+
 
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
