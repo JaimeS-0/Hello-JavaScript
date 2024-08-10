@@ -28,7 +28,6 @@ if (password === 123456) {
     console.log("La contraseña no coincide.");
 }
 
-
 // 3. Verifica si un número es positivo, negativo o cero e imprime un mensaje
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuántos años le faltan
