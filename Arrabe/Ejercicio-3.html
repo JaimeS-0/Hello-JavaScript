@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Usuario</h2>
+        <form id="registerForm">
+            <label for="username">Nombre de Usuario:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="confirmPassword">Repetir Contraseña:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+            <button type="submit">Registrar</button>
+            <button type="button" onclick="exit()">Salir</button>
+        </form>
+        <p id="message" class="hidden"></p>
+    </div>
+
+    <script>
+        const form = document.getElementById('registerForm');
+        const message = document.getElementById('message');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (password !== confirmPassword) {
+                message.textContent = 'Las contraseñas no coinciden. Por favor, inténtalo de nuevo.';
+                message.classList.remove('hidden');
+            } else {
+                document.body.innerHTML = `
+                    <div class="container">
+                        <h2>¡Felicitaciones, ${username}!</h2>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/013/961/431/small_2x/congratulations-inspirational-text-on-a-multicolored-splash-of-watercolor-paint-splashes-of-rainbow-color-banner-vector.jpg" alt="Felicitaciones" width="200" height="100">
+                        <p>Tu registro ha sido exitoso.</p>
+                    </div>
+                `;
+            }
+        });
+
+        function exit() {
+            window.location.href = 'about:blank';
+        }
+    </script>
+</body>
+</html>
