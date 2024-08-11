@@ -25,10 +25,7 @@ console.log(b)
 
 // Operadores de asignacion \\
 
-let myVariable = 2
-console.log(myVariable)
-myVariable += 2 // Suma con asignación
-console.log(myVariable)
+
 
 myVariable -= 2 // Resta con asignación
 myVariable *= 2 // Multiplicación con asignación
