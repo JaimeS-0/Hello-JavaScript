@@ -2,7 +2,7 @@
 Clase 3 en vídeo | 24/07/2024
 Condicionales, arrays y sets
 https://www.twitch.tv/videos/2206228701?t=00h16m02s
-*/
+*/ 
 
 // if/else/else if/ternaria
 
