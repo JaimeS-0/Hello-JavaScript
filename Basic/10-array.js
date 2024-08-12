@@ -32,6 +32,19 @@ console.log(myArray2)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 //Impar
 let n = 10
@@ -44,8 +57,6 @@ let j = 10
 
 myDato2 = 2* j
 console.log(myDato2)
-
-
 
 let i = 0
 for (let i = 1; i < 101; i++) {
