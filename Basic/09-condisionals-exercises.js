@@ -68,9 +68,10 @@ if(age >= 18) {
     console.log("La persona no puede votar le faltan " + añosFaltantes + " años.")
 }
 
-// 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable
-//    dependiendo de la edad 
-
+// 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable dependiendo de la edad 
+console.log("-------------------------------------------")
+console.log("5. Usa el operador ternario para asignar el valor adulto o menor a una variable dependiendo de la edad ")
+console.log("-------------------------------------------")
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
 
