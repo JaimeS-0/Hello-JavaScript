@@ -73,9 +73,58 @@ console.log("-------------------------------------------")
 console.log("5. Usa el operador ternario para asignar el valor adulto o menor a una variable dependiendo de la edad ")
 console.log("-------------------------------------------")
 
+const age1 = 25
+const ageValue = age1 >= 18 ? "adulto" : "menor"
+console.log(ageValue)
+
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
+console.log("-------------------------------------------")
+console.log("6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable mes")
+console.log("-------------------------------------------")
+
+let numberMes = 0
+let mes
+switch(numberMes) {
+    case 0: mes = "January" // Enero
+        break
+    case 1: mes = "February" // Febrero
+        break
+    case 2: mes = "March" // Marzo
+        break
+    case 3: mes = "April" // Abril
+        break
+    case 4: mes = "May" // Mayo
+        break
+    case 5: mes = "June" // Junio
+        break
+    case 6: mes = "July" // Julio
+        break
+    case 7: mes = "August" // Agosto
+        break
+    case 8: mes = "September" // Septiembre
+        break
+    case 9: mes = "October" // Octubre
+        break
+    case 10: mes = "November" // Noviembre
+        break
+    case 11: mes = "December" // Diciembre
+        break
+    default: console.log("No conincide con ningun valor")
+}
+console.log(mes)
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
+
+mes = 2
+if (mes === 0 || mes === 2 || mes === 4 || mes === 6 || mes === 7 || mes === 9 || mes === 11) {
+    console.log("Este mes tiene 31 días")
+} else if (mes === 3 || mes === 5 || mes === 8 || mes === 10) {
+    console.log("Este mes tiene 30 días")
+} else if (mes === 1) {
+    console.log("Este mes tiene 28 días")
+} else {
+    console.log("Mes no válido")
+}
 
 // switch
 
