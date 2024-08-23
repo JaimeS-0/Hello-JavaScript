@@ -37,6 +37,35 @@ typeof set
 //Funcion   fuction
 typeof function () {}
 
+// Console.log()
+
+
+console.assert(false, "Esto es un error");
+console.clear();
+console.count("contador");
+console.countReset("contador");
+console.debug("Mensaje de depuración");
+console.dir({nombre: "Alice", edad: 28});
+console.dirxml(document.body);
+console.error("Esto es un error");
+console.group("Grupo 1");
+console.log("Mensaje dentro del grupo");
+console.groupEnd();
+console.groupCollapsed("Grupo colapsado");
+console.log("Mensaje dentro del grupo colapsado");
+console.groupEnd();
+console.info("Mensaje informativo");
+console.log("Mensaje general");
+console.profile("Perfil 1");
+console.profileEnd();
+console.table([{nombre: "Alice", edad: 28}, {nombre: "Bob", edad: 32}]);
+console.time("Temporizador");
+console.timeEnd("Temporizador");
+console.timeLog("Temporizador");
+console.trace("Traza de la pila");
+console.warn("Mensaje de advertencia");
+
+
 
 
 

@@ -114,8 +114,11 @@ switch(numberMes) {
 console.log(mes)
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
+console.log("-------------------------------------------")
+console.log("7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior")
+console.log("-------------------------------------------")
 
-mes = 2
+mes = 2 // March
 if (mes === 0 || mes === 2 || mes === 4 || mes === 6 || mes === 7 || mes === 9 || mes === 11) {
     console.log("Este mes tiene 31 días")
 } else if (mes === 3 || mes === 5 || mes === 8 || mes === 10) {
@@ -128,7 +131,51 @@ if (mes === 0 || mes === 2 || mes === 4 || mes === 6 || mes === 7 || mes === 9 |
 
 // switch
 
+mes = 11 // December
+switch(mes) {
+    case 0:
+    case 2:
+    case 4:
+    case 6:
+    case 7:
+    case 9:
+    case 11:
+        console.log("Este mes del switch tiene 31 dias")
+        break
+    case 3:
+    case 5:
+    case 8:
+    case 10:
+        console.log("Este mes del switch tiene 30 dias")
+        break
+    case 1: console.log("Este mes del switch tiene 28 dias")
+        break
+    default: console.error("No corresponde a ningun mes")
+}
+
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+console.log("-------------------------------------------")
+console.log("8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma")
+console.log("-------------------------------------------")
+
+const español = "Hola"
+const ingles = "Hello"
+const aleman = "Hallo"
+const frances = "Bonjour"
+
+let saludo = frances
+
+    switch(saludo) {
+        case español: console.log(español)
+            break
+        case ingles: console.log(ingles)
+            break
+        case aleman: console.log(aleman)
+            break
+        case frances: console.log(frances)
+            break   
+        default: console.error("Ningun valor introducido")
+    }
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
