@@ -182,7 +182,7 @@ console.log("-------------------------------------------")
 console.log("9. Usa un switch o (if) para hacer de nuevo el ejercicio 6")
 console.log("-------------------------------------------")
 
-let mess = 4
+let mess = 4 // May
 
 if(mess === 0){
     console.log("El mes es January")
