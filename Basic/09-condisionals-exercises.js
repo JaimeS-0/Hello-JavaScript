@@ -177,6 +177,53 @@ let saludo = frances
         default: console.error("Ningun valor introducido")
     }
 
-// 9. Usa un switch para hacer de nuevo el ejercicio 6
+// 9. Usa un switch (if) para hacer de nuevo el ejercicio 6
+console.log("-------------------------------------------")
+console.log("9. Usa un switch o (if) para hacer de nuevo el ejercicio 6")
+console.log("-------------------------------------------")
 
-// 10. Usa un switch para hacer de nuevo el ejercicio 7
+let mess = 4
+
+if(mess === 0){
+    console.log("El mes es January")
+} else if(mess === 1) {
+    console.log("El mes es February")
+} else if(mess === 2) {
+    console.log("El mes es March")
+} else if(mess === 3) {
+    console.log("El mes es April")
+} else if(mess === 4) {
+    console.log("El mes es May")
+} else if(mess === 5) {
+    console.log("El mes es June")
+} else if(mess === 6) {
+    console.log("El mes es July")
+} else if(mess === 7) {
+    console.log("El mes es August")
+} else if(mess === 8) {
+    console.log("El mes es September")
+} else if(mess === 9) {
+    console.log("El mes es October")
+} else if(mess === 10) {
+    console.log("El mes es November")
+} else if(mess === 11) {
+    console.log("El mes es December")
+} else {
+    console.log("Error Introducelo de nuevo")
+}
+
+// 10. Usa un switch o (if) para hacer de nuevo el ejercicio 7
+console.log("-------------------------------------------")
+console.log("10. Usa un switch o (if) para hacer de nuevo el ejercicio 7")
+console.log("-------------------------------------------")
+
+mes = 2 // March
+if (mes === 0 || mes === 2 || mes === 4 || mes === 6 || mes === 7 || mes === 9 || mes === 11) {
+    console.log("Este mes tiene 31 días")
+} else if (mes === 3 || mes === 5 || mes === 8 || mes === 10) {
+    console.log("Este mes tiene 30 días")
+} else if (mes === 1) {
+    console.log("Este mes tiene 28 días")
+} else {
+    console.log("Mes no válido")
+}
