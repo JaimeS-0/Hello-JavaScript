@@ -98,54 +98,54 @@
 
         let nombre = document.getElementById("name").value;
         if (nombre === "") {
-            alert("El nombre es obligatorio.");
-            return false;
+            alert("El nombre es obligatorio.")
+            return false
         }
         let apellidos = document.getElementById("apellidos").value;
         if (apellidos === "") {
-            alert("El apellido es obligatorio.");
-            return false;
+            alert("El apellido es obligatorio.")
+            return false
         }
 
-        let fechaNacimiento = document.getElementById("fechaNacimiento").value;
+        let fechaNacimiento = document.getElementById("fechaNacimiento").value
         if (!fechaNacimiento) {
-            alert("La fecha de nacimiento es obligatoria.");
-            return false;
+            alert("La fecha de nacimiento es obligatoria.")
+            return false
         }
         let fechaActual = new Date();
-        let fechaNac = new Date(fechaNacimiento);
+        let fechaNac = new Date(fechaNacimiento)
         if (fechaNac >= fechaActual) {
-            alert("La fecha de nacimiento no puede ser en el futuro.");
-            return false;
+            alert("La fecha de nacimiento no puede ser en el futuro.")
+            return false
         }
 
-        let dni = document.getElementById("dni").value;
-        let dniRegex = /^\d{8}[A-Za-z]$/;
+        let dni = document.getElementById("dni").value
+        let dniRegex = /^\d{8}[A-Za-z]$/
         if (!dniRegex.test(dni)) {
-            alert("El DNI debe tener 8 caracteres numéricos seguidos de una letra.");
-            return false;
+            alert("El DNI debe tener 8 caracteres numéricos seguidos de una letra.")
+            return false
         }
 
-        let edad = document.getElementById("age").value;
+        let edad = document.getElementById("age").value
         if (!Number.isInteger(parseInt(edad))) {
-            alert("La edad debe ser un número entero.");
-            return false;
+            alert("La edad debe ser un número entero.")
+            return false
         }
 
-        let correo = document.getElementById("correo").value;
+        let correo = document.getElementById("correo").value
         let correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!correoRegex.test(correo)) {
-            alert("Por favor, introduce un correo electrónico válido.");
-            return false;
+            alert("Por favor, introduce un correo electrónico válido.")
+            return false
         }
 
-        alert("Datos válidos:\nNombre: " + nombre + "\nFecha de Nacimiento: " + fechaNacimiento + "\nDNI: " + dni + "\nEdad: " + edad + "\nCorreo: " + correo);
-        return true;
+        alert("Datos válidos:\nNombre: " + nombre + "\nFecha de Nacimiento: " + fechaNacimiento + "\nDNI: " + dni + "\nEdad: " + edad + "\nCorreo: " + correo)
+        return true
 
-    }
+    } n
     function verificarDatos() {
             if (validarFormulario()) {
-                alert("Todos los datos son válidos.");
+                alert("Todos los datos son válidos.")
             }
         } 
 </script>

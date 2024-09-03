@@ -47,4 +47,3 @@ console.log(myMap.size)
 // clear
 myMap.clear()
 console.log(myMap)
-
