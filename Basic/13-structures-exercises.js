@@ -101,5 +101,28 @@ console.log("-------------------------------------------")
 console.log("10. Crea un Array, transfórmalo a un Set y almacénalo en un Map")
 console.log("-------------------------------------------")
 
-let myArray = new Array("water", "Earth", "Forest", "wind")
+let myArray = ["water", " Earth", " Forest", " wind"]
+console.log("El Array es: " + myArray)
+
+let mySet = new Set(myArray)
+console.log("El Set es: " + [...mySet])
+console.log("El Set es: " + Array.from(mySet))
+/*El operador de "spread" (...) es una herramienta muy útil para copiar arrays y convertir iterables como Set en arrays. La copia es superficial, por lo que es importante tener en cuenta que si trabajas con objetos dentro de arrays, las referencias a esos objetos se copian, no los objetos en sí.*/ 
+
+// Almacena el Set en un Map
+let myMap = new Map();
+myMap.set('key', mySet);
+
+// Mostrar el Map con su contenido
+console.log("El Map es:")
+
+myMap.forEach((value, key) => {
+    console.log(`clave: ${key}`)  
+    console.log(`valor: ${[...value]}`)
+});
+
+
+
+
+
 
