@@ -1,5 +1,41 @@
-    Arrabe/
+# Logs y archivos de registro
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-    discord.py
+# Archivos temporales o de respaldo
+*.tmp
+*.bak
+*.bk
+*.swp
+*~
 
+# Sistema operativo
+Thumbs.db        # Windows
+*.lnk            # Windows
 
+# Configuraciones de editores de código
+.vscode/         # Visual Studio Code
+.idea/           # JetBrains IDEs (IntelliJ, PyCharm, WebStorm)
+*.suo            # Visual Studio
+*.user           # Visual Studio
+*.userosscache   # Visual Studio
+*.sln.docstates  # Visual Studio
+
+# Dependencias de Node.js (si lo usas en algún momento)
+node_modules/
+
+# Directorios de build y distribución
+dist/
+build/
+
+# Archivos de entorno (importante si usas variables de entorno)
+.env
+.env.*
+
+# Archivos de configuración locales o secretos
+*.local
+secret.config
+config/
