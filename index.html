@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html><!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -96,12 +85,12 @@
 <script type="module">
     function validarFormulario() {
 
-        let nombre = document.getElementById("name").value;
+        let nombre = document.getElementById("name").value
         if (nombre === "") {
             alert("El nombre es obligatorio.")
             return false
         }
-        let apellidos = document.getElementById("apellidos").value;
+        let apellidos = document.getElementById("apellidos").value
         if (apellidos === "") {
             alert("El apellido es obligatorio.")
             return false
@@ -112,7 +101,7 @@
             alert("La fecha de nacimiento es obligatoria.")
             return false
         }
-        let fechaActual = new Date();
+        let fechaActual = new Date()
         let fechaNac = new Date(fechaNacimiento)
         if (fechaNac >= fechaActual) {
             alert("La fecha de nacimiento no puede ser en el futuro.")
@@ -133,7 +122,7 @@
         }
 
         let correo = document.getElementById("correo").value
-        let correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        let correoRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
         if (!correoRegex.test(correo)) {
             alert("Por favor, introduce un correo electrónico válido.")
             return false
@@ -142,7 +131,7 @@
         alert("Datos válidos:\nNombre: " + nombre + "\nFecha de Nacimiento: " + fechaNacimiento + "\nDNI: " + dni + "\nEdad: " + edad + "\nCorreo: " + correo)
         return true
 
-    } n
+    } 
     function verificarDatos() {
             if (validarFormulario()) {
                 alert("Todos los datos son válidos.")

@@ -10,7 +10,6 @@ text = 2
 console.log(text)
 
 // En un lenguaje de tipado débil, no necesitas asignar un tipo fijo a la variable.
-// it is devil tip language, dont need assignet a type fixed of the variable        | Mio
 // In a weakly typed language, you don't need to assing a fixed type to a variable
 
 
